@@ -2,13 +2,16 @@
   <img src="https://github.com/dataform-co/dataform/blob/master/static/images/github_bg.png">
 </p>
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/bitsnaps/dataform/tree/gitpod-setup)
+
+
 <div align="center">
   <!-- <a href="https://twitter.com/dataform"><img src="https://img.shields.io/twitter/follow/dataform.svg?style=social" alt="Follow Dataform on Twitter" /></a> -->
 </div>
 
 # Intro
 
-[Dataform](https://dataform.co/?utm_medium=organic&utm_source=github_readme) is an application to manage data in BigQuery, Snowflake, Redshift, and other data warehouses. It enables data teams to build scalable, tested, SQL based data transformation pipelines using version control and engineering inspired best practices. 
+[Dataform](https://dataform.co/?utm_medium=organic&utm_source=github_readme) is an application to manage data in BigQuery, Snowflake, Redshift, and other data warehouses. It enables data teams to build scalable, tested, SQL based data transformation pipelines using version control and engineering inspired best practices.
 
 Compile hundreds of data models in under a second using SQLX. SQLX extends your existing SQL warehouse dialect to add features that support dependency management, testing, documentation and more.
 

@@ -1,0 +1,14 @@
+ports:
+- port: 8080
+  onOpen: open-preview
+
+tasks:
+    init: |
+      npm i -g @bazel/bazelisk
+      npm i -g @dataform/cli
+      bazel build cli
+  - command:
+      dataform help
+
+# testing
+#bazel test --build_tests_only -- ... -tests/integration/... -sql/...
