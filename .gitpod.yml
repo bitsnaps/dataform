@@ -3,11 +3,11 @@ ports:
   onOpen: open-preview
 
 tasks:
-    init: |
+  - init: |
       npm i -g @bazel/bazelisk
       npm i -g @dataform/cli
       bazel build cli
-  - command:
+    command:
       dataform help
 
 # testing
