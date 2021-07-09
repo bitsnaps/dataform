@@ -1,6 +1,11 @@
 image:
   file: .gitpod.Dockerfile
 
+# exposed ports
+ports:
+- port: 5432 # postgres
+  onOpen: ignore
+
 tasks:
   - before: npm install -g npm
   - init: |
