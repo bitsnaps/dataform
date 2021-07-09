@@ -7,8 +7,8 @@ ports:
   onOpen: ignore
 
 tasks:
-  - before: npm install -g npm
   - init: |
+      npm install -g npm
       npm i -g @bazel/bazelisk
       npm i -g @dataform/cli
       bazel build cli
